@@ -26,8 +26,9 @@ python train.py
 ```
 
 ### Test
-. In ```train.py```, set ```testpath``` to your train data path ```YOUR_PATH/dataset/test```,
+1. In ```train.py```, set ```testpath``` to your train data path ```YOUR_PATH/dataset/test```,
    set ```loadckpt``` to your model path ```./checkpoints/xx/xxx.ckpt```, set depth sample number ```numdepth```.
+
 2. Run EG-MVSNet (RTX 3090 24G):
 ```
 python train.py 
